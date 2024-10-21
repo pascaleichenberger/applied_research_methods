@@ -1,0 +1,75 @@
+# Ignore all .docx - files
+*.docx
+
+# Ignore all  .mp4 - files
+*.mp4
+
+# Ignore all  .qgz - files
+*.qgz
+
+# Ignore all .obj - files
+*.obj
+
+# Ignore all .zip - files
+*.zip
+
+# Ignore output-files of weekly exercises
+
+# Week_01
+Week_01/supermarkets.json
+Week_01/winterthur_sitemap.json
+Week_01/zuerich_sitemap.json
+Week_01/apartment_data_winterthur.csv
+
+# Week_02
+Week_02/apartments_data_preparation_zuerich.ipynb
+Week_02/apartments_data_preparation_zuerich.html
+Week_02/apartments_data_prepared.csv
+Week_02/supermarkets_data_prepared.csv
+Week_02/apartments_database.db
+Week_02/supermarkets_database_Python.ipynb
+Week_02/supermarkets_database_Python.html
+
+# Week_03
+Week_03/apartments_data_prepared.csv
+Week_03/apartments_data_enriched.csv
+Week_03/municipality_data_with_taxable_income.xlsx
+Week_03/apartments_data_preparation_zuerich.html
+Week_03/combining_and_organizing_data.html
+
+# Week_04
+Week_04/python_code_outliers.txt
+Week_04/myplot.png
+Week_04/apartments_data_enriched_cleaned.csv
+Week_04/rural_apartments.ipynb
+Week_04/rural_apartments.html
+Week_04/city_apartments.ipynb
+Week_04/city_apartments.html
+Week_04/differences_rural_cities.pdf
+Week_04/exploratory_data_analysis_supermarket_data.ipynb
+Week_04/exploratory_data_analysis_supermarket_data.html
+
+# Week_05
+Week_05/population_and_samples.html
+Week_05/unpaired_two_sample_t-test.html
+Week_05/analysis_of_variance_ANOVA.html
+
+# Week_06
+Week_06/analysis_of_contingency_tables.html
+Week_06/correlation_analysis.html
+Week_06/chi_squared_test_by_hand.txt
+
+# Week_07
+Week_07/linear_regression.html
+Week_07/regression_trees_random_forest.html
+
+
+# Ignore single folders
+# Week_01
+# Week_02
+# Week_03
+# Week_04
+# Week_05
+# Week_06
+# Week_07
+
