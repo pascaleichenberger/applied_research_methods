@@ -24,23 +24,23 @@ Week_01/apartment_data_winterthur.csv
 # Week_02
 Week_02/apartments_data_preparation_zuerich.ipynb
 Week_02/apartments_data_preparation_zuerich.html
-Week_02/apartments_data_prepared.csv
-Week_02/supermarkets_data_prepared.csv
+Week_02/Data/apartments_data_prepared.csv
+Week_02/Data/supermarkets_data_prepared.csv
 Week_02/apartments_database.db
 Week_02/supermarkets_database_Python.ipynb
 Week_02/supermarkets_database_Python.html
 
 # Week_03
-Week_03/apartments_data_prepared.csv
-Week_03/apartments_data_enriched.csv
-Week_03/municipality_data_with_taxable_income.xlsx
+Week_03/Data/apartments_data_prepared.csv
+Week_03/Data/apartments_data_enriched.csv
+Week_03/Data/municipality_data_with_taxable_income.xlsx
 Week_03/apartments_data_preparation_zuerich.html
 Week_03/combining_and_organizing_data.html
 
 # Week_04
-Week_04/python_code_outliers.txt
-Week_04/myplot.png
-Week_04/apartments_data_enriched_cleaned.csv
+Week_04/Data/python_code_outliers.txt
+Week_04/Data/myplot.png
+Week_04/Data/apartments_data_enriched_cleaned.csv
 Week_04/rural_apartments.ipynb
 Week_04/rural_apartments.html
 Week_04/city_apartments.ipynb
@@ -50,11 +50,16 @@ Week_04/exploratory_data_analysis_supermarket_data.ipynb
 Week_04/exploratory_data_analysis_supermarket_data.html
 
 # Week_05
-Week_05/population_and_samples.html
-Week_05/unpaired_two_sample_t-test.html
-Week_05/analysis_of_variance_ANOVA.html
+Week_05/Data/address_geocoded.png
+Week_05/Data/municipalities_and_points_map.png
+Week_05/Data/table_point_in_polygon_intersection.png
+Week_05/Data/screenshot_choropleth_map.png
+Week_05/Data/table_nearest_neighbor_analysis.png
 
 # Week_06
+Week_06/population_and_samples.html
+Week_06/unpaired_two_sample_t-test.html
+Week_06/analysis_of_variance_ANOVA.html
 Week_06/analysis_of_contingency_tables.html
 Week_06/correlation_analysis.html
 Week_06/chi_squared_test_by_hand.txt
