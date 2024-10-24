@@ -40,6 +40,7 @@ Applied Research Methods/
 ├── Week_05/
 ├── Week_06/
 ├── Week_07/
+|
 ├── .gitignore
 ├── README.md
 └── requirements.txt
