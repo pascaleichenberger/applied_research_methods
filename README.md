@@ -15,35 +15,13 @@ https://github.com/mario-gellrich-zhaw/applied_research_methods.git
 # --> This will generate a fork (copy) of the repository in your GitHub account.
 ```
 
-### Creating a GitHub Codespaces (our working environment for the course)
+### Creating a GitHub Codespaces environment
 
-Based on your fork, create a new Codespace: GitHub -> Upper menu -> Create new -> New Codespace.
+Based on your fork, create a new Codespace: GitHub -> Upper menu -> Create new -> New Codespace.  
 
-All installations will be made automatically. Wait until the postcreate command has completed the installation of the Python libraries.
+All installations will be made automatically.  
 
-### Local Installations (use only, if you need a clone of the GitHub repository on your local computer)
-
-Assuming you have
-
-- [Visual Studio Code](https://code.visualstudio.com/Download)
-- [git](https://github.com/git-guides/install-git)
-- [Python3](https://www.python.org/downloads/)
-- [Created a fork](https://github.com/mario-gellrich-zhaw/applied_research_methods) of this repository and [set up an SSH key](https://docs.github.com/en/github-ae@latest/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
-
-You can clone this repository to your local computer using:
-
-```
-git clone <repository-url>
-```
-
-where `<repository-url>` is the url of your fork (click green button above, Local, SSH).
-
-After that, run:
-
-```bash
-cd /workspaces/data_analytics    # cd into your working directory
-pip install -r requirements.txt  # installs the required Python libraries
-```
+Wait until the postcreate command has completed the installation of the Python libraries.  
 
 ## Folder Structure
 
@@ -67,34 +45,7 @@ Applied Research Methods/
 └── requirements.txt
 ```
 
-## Useful Git Commands
-
-### Configuring Git
-
-To sync your fork (origin) with the upstream repository, you must make the following Git configurations (VS Code Terminal):
-
-```bash
-# Configure your Git username & email
-git config --global user.name "FIRST_NAME LAST_NAME"
-git config --global user.email "your-email-on-github@example.com"
-
-# Add the url of the upstream repository (= official course repository)
-git remote add upstream https://github.com/mario-gellrich-zhaw/applied_research_methods.git
-
-# Set the url of the origin (= your forked repository with the SSH URL)
-git remote set-url origin git@github.com:YOUR-USERNAME/data_analytics.git
-
-# View the current configured remote repositories
-git remote -v
-
-# The output should look like (replace YOUR-USERNAME with your user name) ...
-# origin  git@github.com:YOUR-USERNAME/data_analytics.git(fetch)
-# origin  git@github.com:YOUR-USERNAME/data_analytics.git (push)
-# upstream        https://github.com/mario-gellrich-zhaw/applied_research_methods.git (fetch)
-# upstream        https://github.com/mario-gellrich-zhaw/applied_research_methods.git (push)
-```
-
-### Sync your fork (origin) with upstream
+## Sync your fork (origin) with the upstream repository
 
 To sync your fork (origin) with the upstream repository you can use the following Git commands (VS Code Terminal):
 
@@ -112,7 +63,7 @@ git merge upstream/master
 git push origin master
 ```
 
-### Solve merge conflicts
+## Solve merge conflicts
 
 In the course you will modify the Python code provided on GitHub. When you modify Python code, merge conflicts may occur which is when two or more changes conflict with each other. This usually happens when multiple people are working on the same project and they try to merge their changes into a common codebase.
 
